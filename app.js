@@ -9,7 +9,7 @@ Exercise 1: Define an empty array
 Exercise 1 has been completed for you:
 */
 
-const foods = ["Taco", "Burger", "Salad"];  
+const foods = [];  
 
 console.log('Exercise 1 result:', foods);
 
@@ -24,7 +24,7 @@ Note: 'pizza' should be the first item in the array, followed by 'cheeseburger'.
 Complete Exercise 2 in the space below:
 */
 
-const foods = ["Taco", "Burger", "Salad"]; 
+foods.push("pizza", "cheeseburger")
 
 console.log('Exercise 2 result:', foods);
 
@@ -37,7 +37,7 @@ Exercise 3: Insert at the beginning
 Complete Exercise 3 in the space below:
 */
 
-
+console.log(foods.unshift("taco"));
 
 console.log('Exercise 3 result:', foods);
 
@@ -53,7 +53,7 @@ Exercise 4: Access an array element
 Complete Exercise 4 in the space below:
 */
 
-
+favFood = (foods[1])
 
 console.log('Exercise 4 result:', favFood);
 
@@ -66,7 +66,7 @@ Exercise 5: Insert an element between two others
 Complete Exercise 5 in the space below:
 */
 
-
+foods.splice(2, 0, "tofu")
 
 console.log('Exercise 5 result:', foods);
 
@@ -79,7 +79,8 @@ Exercise 6: Replace elements
 Complete Exercise 6 in the space below:
 */
 
-
+foods.slice(1)
+foods.splice(1, 0, "sushi", "cupcake")
 
 console.log('Exercise 6 result:', foods);
 
