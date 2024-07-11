@@ -169,10 +169,16 @@ const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
 const odds = [];
 
-for (const nums of Array) {
-   
-
+for (let index = 0; index < nums.length; index++) {
+   let oddNum = nums[index]
+   if (nums[index]%2 === 1)
+     odds.push(oddNum)
 }
+
+console.log(odds);
+
+// if a number is divisible by 2 without a remainder then it is going to be even otherwise it is odd
+
 
 console.log('Exercise 11 result:', odds);
 
@@ -195,6 +201,23 @@ Exercise 12: FizzBuzz with arrays
 
 Complete Exercise 12 in the space below:
 */
+
+
+const fizz = []
+const buzz = []
+const fizzbuzz = []
+
+for (let index = 0; index < nums.length; index++) {
+   const element = nums[index];
+   if (nums[index] %3 === 0){
+      fizz.push(element)
+   }if (nums[index] %5 === 0){
+      buzz.push(element)
+   }if (nums[index] %3 && nums[index]%5 === 0){
+      fizzbuzz.push(element)
+   }
+}
+
 
 
 
@@ -223,6 +246,8 @@ const numArrays = [
 	[7, 81, 90]
 ];
 
+const numList = numArrays[numArrays.length - 1]
+
 console.log('Exercise 13 result:', numList);
 
 // Exercise 14
@@ -237,7 +262,7 @@ Exercise 14: Accessing within nested arrays
 Complete Exercise 14 in the space below:
 */
 
-
+const num = [numArrays[2][numArrays.length -3]]
 
 console.log('Exercise 14 result:', num);
 
