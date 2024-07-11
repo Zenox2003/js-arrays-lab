@@ -1,4 +1,4 @@
-console.log("We doing boys!");
+console.log("We doing it boys!");
 
 // Exercise 1
 /*
@@ -79,8 +79,7 @@ Exercise 6: Replace elements
 Complete Exercise 6 in the space below:
 */
 
-foods.slice(1)
-foods.splice(1, 0, "sushi", "cupcake")
+foods.splice(1, 1, "sushi", "cupcake")
 
 console.log('Exercise 6 result:', foods);
 
@@ -96,7 +95,7 @@ Exercise 7: Using the `slice()` method
 Complete Exercise 7 in the space below:
 */
 
-
+yummy = foods.slice(1,3)
 
 console.log('Exercise 7 result:', yummy);
 
@@ -112,7 +111,9 @@ Exercise 8: Finding an index
 Complete Exercise 8 in the space below:
 */
 
+soyIdx = (foods.indexOf("tofu"));
 
+console.log(soyIdx);
 
 console.log('Exercise 8 result:', soyIdx);
 
@@ -131,7 +132,7 @@ Note: The final result should log as:
 Complete Exercise 9 in the space below:
 */
 
-
+allFoods = (foods.join(" -> "))
 
 console.log('Exercise 9 result:', allFoods);
 
@@ -147,7 +148,7 @@ Exercise 10: Check for an element
 Complete Exercise 10 in the space below:
 */
 
-
+hasSoup = (foods.includes("soup"))
 
 console.log('Exercise 10 result:', hasSoup);
 
@@ -166,7 +167,12 @@ Complete Exercise 11 in the space below:
 
 const nums = [100, 5, 23, 15, 21, 72, 9, 45, 66, 7, 81, 90];
 
+const odds = [];
 
+for (const nums of Array) {
+   
+
+}
 
 console.log('Exercise 11 result:', odds);
 
